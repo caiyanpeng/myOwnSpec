@@ -15,6 +15,7 @@
 		C4FD0230221CF763003C72E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD022F221CF763003C72E1 /* main.m */; };
 		C4FD023A221CF763003C72E1 /* CAIModularizationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0239221CF763003C72E1 /* CAIModularizationTestTests.m */; };
 		C4FD0245221CF763003C72E1 /* CAIModularizationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0244221CF763003C72E1 /* CAIModularizationTestUITests.m */; };
+		C4FD0255221CFA2D003C72E1 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0254221CFA2D003C72E1 /* Father.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C4FD0240221CF763003C72E1 /* CAIModularizationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAIModularizationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FD0244221CF763003C72E1 /* CAIModularizationTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAIModularizationTestUITests.m; sourceTree = "<group>"; };
 		C4FD0246221CF763003C72E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4FD0253221CFA2D003C72E1 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		C4FD0254221CFA2D003C72E1 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		C4FD021F221CF74B003C72E1 /* CAIModularizationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C4FD0252221CFA12003C72E1 /* common */,
 				C4FD0220221CF74B003C72E1 /* AppDelegate.h */,
 				C4FD0221221CF74B003C72E1 /* AppDelegate.m */,
 				C4FD0223221CF74B003C72E1 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				C4FD0246221CF763003C72E1 /* Info.plist */,
 			);
 			path = CAIModularizationTestUITests;
+			sourceTree = "<group>";
+		};
+		C4FD0252221CFA12003C72E1 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD0253221CFA2D003C72E1 /* Father.h */,
+				C4FD0254221CFA2D003C72E1 /* Father.m */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4FD0225221CF74B003C72E1 /* ViewController.m in Sources */,
+				C4FD0255221CFA2D003C72E1 /* Father.m in Sources */,
 				C4FD0230221CF763003C72E1 /* main.m in Sources */,
 				C4FD0222221CF74B003C72E1 /* AppDelegate.m in Sources */,
 			);
@@ -438,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZX5LT95X4;
 				INFOPLIST_FILE = CAIModularizationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZX5LT95X4;
 				INFOPLIST_FILE = CAIModularizationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
