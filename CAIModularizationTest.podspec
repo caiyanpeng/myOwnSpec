@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CAIModularizationTest"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "CAIModularizationTest for my test cai yanpeng"
 
   spec.description  = <<-DESC
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source       = { :git => "https://github.com/caiyanpeng/myOwnSpec.git", :tag => "0.1.0" }
+  spec.source       = { :git => "https://github.com/caiyanpeng/myOwnSpec.git", :tag => "0.1.1" }
 
   spec.source_files  =  "CAIModularizationTest/CAIModularizationTest/Classes/*.{h,m}"
   # spec.public_header_files = "Classes/**/*.h"
