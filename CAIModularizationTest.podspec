@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/caiyanpeng/myOwnSpec.git", :tag => "0.1.0" }
 
-  spec.source_files  =  "CAIModularizationTest/CAIModularizationTest/common/**/*.{h,m}"
+  spec.source_files  =  "CAIModularizationTest/CAIModularizationTest/common/**/*"
 
   # spec.public_header_files = "Classes/**/*.h"
 
