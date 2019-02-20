@@ -16,6 +16,7 @@
 		C4FD023A221CF763003C72E1 /* CAIModularizationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0239221CF763003C72E1 /* CAIModularizationTestTests.m */; };
 		C4FD0245221CF763003C72E1 /* CAIModularizationTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0244221CF763003C72E1 /* CAIModularizationTestUITests.m */; };
 		C4FD0255221CFA2D003C72E1 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0254221CFA2D003C72E1 /* Father.m */; };
+		C4FD0259221D1D39003C72E1 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD0258221D1D39003C72E1 /* Son.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C4FD0246221CF763003C72E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FD0253221CFA2D003C72E1 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
 		C4FD0254221CFA2D003C72E1 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		C4FD0257221D1D39003C72E1 /* Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		C4FD0258221D1D39003C72E1 /* Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		C4FD021F221CF74B003C72E1 /* CAIModularizationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C4FD0256221D1D2D003C72E1 /* Classes */,
 				C4FD0252221CFA12003C72E1 /* common */,
 				C4FD0220221CF74B003C72E1 /* AppDelegate.h */,
 				C4FD0221221CF74B003C72E1 /* AppDelegate.m */,
@@ -143,6 +147,15 @@
 				C4FD0254221CFA2D003C72E1 /* Father.m */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		C4FD0256221D1D2D003C72E1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4FD0257221D1D39003C72E1 /* Son.h */,
+				C4FD0258221D1D39003C72E1 /* Son.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4FD0225221CF74B003C72E1 /* ViewController.m in Sources */,
+				C4FD0259221D1D39003C72E1 /* Son.m in Sources */,
 				C4FD0255221CFA2D003C72E1 /* Father.m in Sources */,
 				C4FD0230221CF763003C72E1 /* main.m in Sources */,
 				C4FD0222221CF74B003C72E1 /* AppDelegate.m in Sources */,
